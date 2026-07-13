@@ -98,3 +98,4 @@ const Chat = ({ complaintId, title }) => {
 };
 
 export default Chat;
+

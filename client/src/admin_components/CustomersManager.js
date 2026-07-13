@@ -69,3 +69,4 @@ const CustomersManager = () => {
 };
 
 export default CustomersManager;
+

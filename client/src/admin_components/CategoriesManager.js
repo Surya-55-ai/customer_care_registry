@@ -87,3 +87,4 @@ const CategoriesManager = () => {
 };
 
 export default CategoriesManager;
+

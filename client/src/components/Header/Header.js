@@ -20,14 +20,9 @@ const Header = () => {
       </Link>
       <nav className="nav-links">
         <Link to="/">Home</Link>
-
-        {user && user.type === "admin" && (
-          <>
-            <Link to="/complaints">Complaints</Link>
-            <Link to="/users">Customers</Link>
-            <Link to="/agents">Agents</Link>
-          </>
-        )}
+        <Link to="/complaints">Complaints</Link>
+        <Link to="/users">Customers</Link>
+        <Link to="/agents">Agents</Link>
 
         {user && user.type === "user" && (
           <>
@@ -72,3 +67,5 @@ const Header = () => {
 };
 
 export default Header;
+
+

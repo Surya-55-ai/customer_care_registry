@@ -14,3 +14,4 @@ test("renders home page brand link", () => {
   const brandLink = screen.getByText(/Care/i);
   expect(brandLink).toBeInTheDocument();
 });
+

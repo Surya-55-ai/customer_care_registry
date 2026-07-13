@@ -98,3 +98,4 @@ const ComplaintsManager = () => {
 };
 
 export default ComplaintsManager;
+
