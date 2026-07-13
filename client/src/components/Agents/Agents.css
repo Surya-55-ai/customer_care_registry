@@ -1,0 +1,28 @@
+.agents-page {
+  padding: 32px 40px;
+}
+
+.agents-page h2 {
+  margin-bottom: 20px;
+  color: #1c2733;
+}
+
+.agents-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.agents-table th,
+.agents-table td {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid #e2e5ea;
+}
+
+.agents-table th {
+  color: #7c8697;
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}

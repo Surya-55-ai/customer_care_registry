@@ -1,0 +1,64 @@
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  border-bottom: 1px solid #e2e5ea;
+  background: #ffffff;
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #1e6fd9;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 0.9rem;
+}
+
+.nav-links a,
+.link-button {
+  color: #2c3e50;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 0;
+}
+
+.nav-links a:hover,
+.link-button:hover {
+  color: #1e6fd9;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  right: 0;
+  top: 28px;
+  background: #fff;
+  border: 1px solid #e2e5ea;
+  border-radius: 6px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  min-width: 140px;
+  z-index: 20;
+}
+
+.dropdown-menu a {
+  padding: 10px 14px;
+}
+
+.dropdown-menu a:hover {
+  background: #f4f6f9;
+}
